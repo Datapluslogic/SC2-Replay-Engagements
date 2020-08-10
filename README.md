@@ -20,13 +20,14 @@ In parsing/attaching information from replays, currently I am adding more of a b
 
 Engagement Type | Logic
 ------------ | -------------
-***Base Requirement** | Is engaged with enemy army (taking or dealing damange, units within range of enemy army (<7)) OR Is engaged with enemy economy (dealing damage to economic units/building, units within range of enemy base (<7))
+***Base Requirement for Engagement** | Is engaged with enemy army (taking or dealing damange, units within range of enemy army (<7)) OR Is engaged with enemy economy (dealing damage to economic units/building, units within range of enemy base (<7))
+*Harass (Boolean) | <30% of Army supply in engagement group
 Killing Overlords/Nydus/Creep |  Is engaged with enemy economy AND Killing Overlords/Nydus/Creep
-Economic Damage - Town Hall/Workers/Buildings | Is engaged with enemy economy AND NOT Harass 
-Economic Harass - Town Hall/Workers/Buildings | Is engaged with enemy economy AND Harass
+Economic Damage - Town Hall/Workers/Buildings | Is engaged with enemy economy AND NOT Harass (Boolean)
+Economic Harass - Town Hall/Workers/Buildings | Is engaged with enemy economy AND Harass (Boolean)
 Army Engagement | No base within distance threshold (>30)
-Push | Unit Group Closer to Enemy Base AND NOT Harass (30% of Army supply or greater in engagement group)
-Harass | Unit Group Closer to Enemy Base
+Push | Unit Group Closer to Enemy Base AND NOT Harass (Boolean)
+Harass (Engagement Type) | Unit Group Closer to Enemy Base AND Harass (Boolean)
 Defense | Unit Group Not Closer to Enemy Base
 
 ### Unit Groups
