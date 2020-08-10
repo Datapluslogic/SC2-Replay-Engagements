@@ -50,5 +50,5 @@ To be added.
 ## Contributors
 
 * **Mina Ozgen/datapluslogic** - Engagement and Alteryx Logic
-* **Firnafth** - Parsing Data and Engagement Logic
+* **Firnafth/FearfulLeader** - Parsing Data and Engagement Logic
 
