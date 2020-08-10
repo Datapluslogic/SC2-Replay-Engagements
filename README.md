@@ -31,7 +31,16 @@ Harass (Engagement Type) | Unit Group Closer to Enemy Base AND Harass (Boolean)
 Defense | Unit Group Not Closer to Enemy Base
 
 ### Unit Groups
-To be added.
+Unit per game, gameloop and player, is within range (<6) of another unit for the same game, gameloop and player.
+If A is in range of B 
+And B is in range of C
+but A, B and C are not in range of any other units, then:
+
+GroupID | UnitId
+------------ | -------------
+1 | A
+1 | B
+1 | C
 
 ### Unit Groups Over Time/Engagement ID
 To be added.
