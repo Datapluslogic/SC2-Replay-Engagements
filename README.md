@@ -8,7 +8,7 @@ This project is a collaboration between Firnafth and myself (Mina) primarily for
 
 ## Sourcing the Data
 
-Firnafth parses replays using SC2API to obtain positional data (https://blizzard.github.io/s2client-api/). Otherwise s2protocol (the more commonly used method to obtain positional data) is flawed (as indicated in official documentation https://github.com/Blizzard/s2protocol).
+Firnafth parses replays using [SC2API](https://blizzard.github.io/s2client-api/) to obtain positional data. Otherwise [s2protocol](https://github.com/Blizzard/s2protocol) (the more commonly used method to obtain positional data) is flawed (as indicated in official documentation).
 
 ### Engagements Thus Far
 
@@ -20,7 +20,7 @@ In parsing/attaching information from replays, currently I am adding more of a b
 
 Engagement Type | Logic
 ------------ | -------------
-*Base Requirement | Is engaged with enemy army (taking or dealing damange, units within range of enemy army (<7)) OR Is engaged with enemy economy (dealing damage to economic units/building, units within range of enemy base (<7))
+***Base Requirement** | Is engaged with enemy army (taking or dealing damange, units within range of enemy army (<7)) OR Is engaged with enemy economy (dealing damage to economic units/building, units within range of enemy base (<7))
 Killing Overlords/Nydus/Creep |  Is engaged with enemy economy AND Killing Overlords/Nydus/Creep
 Economic Damage - Town Hall/Workers/Buildings | Is engaged with enemy economy AND NOT Harass 
 Economic Harass - Town Hall/Workers/Buildings | Is engaged with enemy economy AND Harass
