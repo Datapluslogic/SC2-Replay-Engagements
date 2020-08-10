@@ -21,7 +21,7 @@ In parsing/attaching information from replays, currently I am adding more of a b
 Engagement Type | Logic
 ------------ | -------------
 ***Base Requirement for Engagement** | Is engaged with enemy army (taking or dealing damange, units within range of enemy army (<7)) OR Is engaged with enemy economy (dealing damage to economic units/building, units within range of enemy base (<7))
-*Harass (Boolean) | <30% of Army supply in engagement group
+*Harass (Boolean) | <30% of Army supply in engagement group OR Total Army Supply <5
 Killing Overlords/Nydus/Creep |  Is engaged with enemy economy AND Killing Overlords/Nydus/Creep
 Economic Damage - Town Hall/Workers/Buildings | Is engaged with enemy economy AND NOT Harass (Boolean)
 Economic Harass - Town Hall/Workers/Buildings | Is engaged with enemy economy AND Harass (Boolean)
