@@ -32,6 +32,7 @@ Defense | Unit Group Not Closer to Enemy Base
 
 ### Unit Groups
 Unit per game, gameloop and player, is within range (<6) of another unit for the same game, gameloop and player.
+
 If A is in range of B 
 And B is in range of C
 but A, B and C are not in range of any other units, then:
