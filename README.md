@@ -10,6 +10,8 @@ This project is a collaboration between Firnafth and myself (Mina) primarily for
 
 Firnafth parses replays using [SC2API](https://blizzard.github.io/s2client-api/) to obtain positional data. Otherwise [s2protocol](https://github.com/Blizzard/s2protocol) (the more commonly used method to obtain positional data) is flawed (as indicated in official documentation).
 
+## Engagements
+
 ### Engagements Thus Far
 
 Originally when Firnafth manually recorded engagements during tournament analysis, she recorded three types of engagements: push, defense, harass. These engagement records were also primarily focused on army to army engagements.
